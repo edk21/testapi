@@ -4,9 +4,9 @@ const cors = require("cors");
 require("dotenv").config({ path: "./config.env" });
 
 const app = express();
-const apiUrl = 'https://lereacteur-bootcamp-api.herokuapp.com/api/flink';
-//const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmViOGQ3MTY1MWMwYzAwMTZiYzJjMmIiLCJlbWFpbCI6ImRld2lzbWVjaW5keUBhb2wuY29tIiwiZXhwaXJhdGlvbkRhdGUiOiIyMDIzLTA2LTE3VDIzOjAwOjAwLjAwMFoiLCJpc1RyYWluaW5nIjp0cnVlLCJpYXQiOjE2ODAzNTY3NjV9.OIp7rwfhv4DY02SQWNFK2ezFqViuAo4zphAj-x1s5AA'
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDMwNWI5NDljOWM5OWNlNzQwNTNlMzciLCJlbnRpdHlJZCI6IjY0MzA1Yjk0OWM5Yzk5Y2U3NDA1M2UzNyIsImVudGl0eVR5cGUiOiJ1c2VyIiwiaWF0IjoxNjgwODkyMTAyfQ._gxtp2YxPmrdtNuy4lcWy2i21v1iwiZR-8bnokXX-YY'
+//const apiUrl = 'https://lereacteur-bootcamp-api.herokuapp.com/api/flink';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmViOGQ3MTY1MWMwYzAwMTZiYzJjMmIiLCJlbWFpbCI6ImRld2lzbWVjaW5keUBhb2wuY29tIiwiZXhwaXJhdGlvbkRhdGUiOiIyMDIzLTA2LTE3VDIzOjAwOjAwLjAwMFoiLCJpc1RyYWluaW5nIjp0cnVlLCJpYXQiOjE2ODAzNTY3NjV9.OIp7rwfhv4DY02SQWNFK2ezFqViuAo4zphAj-x1s5AA'
+//const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDMwNWI5NDljOWM5OWNlNzQwNTNlMzciLCJlbnRpdHlJZCI6IjY0MzA1Yjk0OWM5Yzk5Y2U3NDA1M2UzNyIsImVudGl0eVR5cGUiOiJ1c2VyIiwiaWF0IjoxNjgwODkyMTAyfQ._gxtp2YxPmrdtNuy4lcWy2i21v1iwiZR-8bnokXX-YY'
 const PORT = process.env.PORT || 5002;
 
 app.use(express.json());
